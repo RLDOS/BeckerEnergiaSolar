@@ -6,27 +6,29 @@
     box-sizing: border-box;
 }
 
+/* NOVA REGRA - CORRIGIDA */
 body {
-    background-color: #f8f9fa; 
+    background-color: #f8f9fa; /* Mantém a cor de fundo */
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    /* Centraliza o container principal na tela se ela for maior que o max-width */
-    display: flex;
-    justify-content: center;
+    padding: 0; /* Garante que não há preenchimento */
 }
+
 .font-montserrat {
     font-family: 'Montserrat', sans-serif;
 }
 
 /* --- CONTAINER PRINCIPAL --- */
+
 .container-principal {
-    width: 100%; /* Garante que o container use toda a largura disponível */
-    max-width: 412px; /* Mantém um limite máximo para telas maiores (desktop) */
-    min-height: 100vh; /* Faz o container ocupar a altura inteira da tela */
+    width: 100%;
+    max-width: 412px;
+    min-height: 100vh; /* Opcional, mas recomendado */
     background-color: #f9f9f9;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     overflow-x: hidden;
-    position: relative; 
+    position: relative;
+    margin: 0 auto; /* ESSA É A MUDANÇA PRINCIPAL */
 }
 
 
