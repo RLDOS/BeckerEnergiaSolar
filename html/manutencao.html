@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Residencial</title>
+
+    <link rel="stylesheet" href="../style/manutencao-style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;900&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container-principal">
+
+        <header class="cabecalho">
+            <div>
+                <a href="../index.html"><img src="../assets/logo_Prancheta Original.png" alt="Logo da Empresa" class="logo"></a>
+            </div>
+            
+                <img id="menu-button" class="botao-menu-hamburguer" src="../assets/fi-br-menu-burger.jpg"></img>
+           
+        </header>
+
+        <aside id="side-menu" class="menu-lateral">
+            <div class="menu-conteudo">
+                <div class="menu-cabecalho-interno">
+                    <button id="close-menu-button" class="botao-fechar-menu">
+                        <svg class="icone-fechar" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                    </button>
+                </div>
+                <nav class="menu-opcoes">
+                    <div class="menu-item-borda">
+                        <button class="accordion-toggle">
+                            <span>SOBRE NÓS</span>
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+                        </button>
+                        <div class="submenu collapsible-content">
+                            <a href="../html/sobrenos.html" class="submenu-item">QUEM SOMOS</a>
+                          
+                        </div>
+                    </div>
+                    <div class="menu-item-borda">
+                        <button class="accordion-toggle">
+                            <span>NOSSOS SERVIÇOS</span>
+                            <svg class="arrow" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" /></svg>
+                        </button>
+                        <div class="submenu collapsible-content">
+                            <a href="residencial.html" class="submenu-item">SISTEMA RESIDENCIAL</a>
+                            <a href="comercial.html" class="submenu-item">PROJETOS COMERCIAIS</a>
+                            <a href="manutencao.html" class="submenu-item">MANUTENÇÃO PREVENTIVA</a>
+                            <a href="wallbox.html" class="submenu-item">INSTALAÇÃO DE WALLBOX</a>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5592981131403" target="_blank" class="menu-link-direto">ENTRAR EM CONTATO</a>
+                </nav>
+            </div>
+        </aside>
+        <div id="menu-overlay" class="menu-fundo-overlay hidden"></div>
+
+        <main>
+           <section class="cartao-destaque">
+    <div class="cartao-destaque-texto">
+        <h3 class="subtitulo-destaque">GARANTA A EFICIÊNCIA,<br/>SEM SURPRESAS NO FIM DO MÊS</h3>
+        <h1 class="titulo-destaque">MANUTENÇÃO<br/> PARA SEU SISTEMA</h1>
+    </div>
+    </section>
+            <div class="conteudo-pagina">
+                 <h2 class="titulo-pagina">SOBRE A INSPEÇÃO</h2>
+                 <p class="texto-pagina">
+                   Você sabia que com o tempo, a poeira, folhas e a poluição podem "sufocar" seus painéis, diminuindo a quantidade de energia gerada e fazendo você perder dinheiro sem notar?<br><br/> Nossa manutenção é um verdadeiro check-up de performance, garantindo que seu sistema volte a operar com 100% de eficiência.<br><br/>Proteja seu investimento, evite surpresas e garanta a máxima economia na sua conta de luz todos os meses. Cuide bem da sua usina para que ela continue cuidando bem do seu bolso.
+                 </p>
+                
+                 <section class="secao-repertorio">
+                    <h2 class="titulo-pagina">NOTE A DIFERENÇA</h2>
+                    
+                    <div class="galeria-repertorio">
+                        <div class="galeria-item">
+                            <img src="../assets/Manutencao1.png" alt="Exemplo de projeto 1">
+                            <p>Antes e Depois.</p>
+                        
+
+                        
+                    </div>
+                 </section>
+                
+                 <div class="container-botao-final">
+                      <a href="#" class="botao-orcamento">
+                        <img src="../assets/Balao.png" class="icone-balao">
+                           <span class="texto-botao-orcamento">VAMOS FAZER SEU ORÇAMENTO?</span>
+                      </a>
+                 </div>
+            </div>
+        </main>
+        
+        <footer class="rodape">
+            <p>&copy; 2025 Becker Energia Solar. Todos os direitos reservados.</p>
+        </footer>
+
+    </div>
+
+    <script src="../javascript/manutencao-script.js"></script>
+</body>
+</html>
