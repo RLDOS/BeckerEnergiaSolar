@@ -2,24 +2,18 @@
 *, *::before, *::after { box-sizing: border-box; }
 
 body {
-    display: flex;
-    justify-content: center;
-    background-color: #f8f9fa;
+    background-color: #f9f9f9; 
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
-
 .font-montserrat { font-family: 'Montserrat', sans-serif; }
 
 /* --- ESTRUTURA PRINCIPAL --- */
 .container-principal {
     width: 100%;
-    max-width: 412px;
-    background-color: white;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-    overflow-x: hidden;
-    position: relative;
-}
+    min-height: 100vh;
+    background-color: #f9f9f9;
 
 /* --- CABEÇALHO E MENU (Estilos reutilizados) --- */
 .cabecalho {
