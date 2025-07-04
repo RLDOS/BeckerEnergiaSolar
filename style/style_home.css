@@ -8,10 +8,10 @@
 
 /* NOVA REGRA - CORRIGIDA */
 body {
-    background-color: #f8f9fa; /* Mantém a cor de fundo */
+    background-color: #f9f9f9; 
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    padding: 0; /* Garante que não há preenchimento */
+    padding: 0;
 }
 
 .font-montserrat {
@@ -22,13 +22,8 @@ body {
 
 .container-principal {
     width: 100%;
-    max-width: 412px;
-    min-height: 100vh; /* Opcional, mas recomendado */
+    min-height: 100vh;
     background-color: #f9f9f9;
-    overflow-x: hidden;
-    position: relative;
-    margin: 0 auto; /* ESSA É A MUDANÇA PRINCIPAL */
-}
 
 
 /* --- CABEÇALHO --- */
@@ -282,7 +277,7 @@ body {
 /* --- SEÇÃO DE SERVIÇOS --- */
 .secao-servicos {
     background-color: #f9f9f9;
-    padding: 1rem 1rem 1; /* 32px 16px */
+    padding: 2rem 1rem;
 }
 
 .titulo-secao {
