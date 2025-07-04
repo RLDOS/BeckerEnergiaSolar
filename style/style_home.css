@@ -10,27 +10,30 @@ html, body {
 	height: 100%;
 	margin: 0;
 }
+/* --- ESTILOS GERAIS E FONTES --- */
 body {
+    background-color: #f8f9fa; 
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    /* Centraliza o container principal na tela se ela for maior que o max-width */
     display: flex;
     justify-content: center;
-    background-color: #f8f9fa; /* Um cinza claro para o fundo */
-    font-family: 'Poppins', sans-serif; /* Fonte padrão alternativa a Gotham */
-    margin: 0;
-}
-
-.font-montserrat {
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* --- CONTAINER PRINCIPAL --- */
 .container-principal {
-    width: 100%;
-    max-width: 412px;
-    background-color: #f9f9f9;;
+    width: 100%; /* Garante que o container use toda a largura disponível */
+    max-width: 412px; /* Mantém um limite máximo para telas maiores (desktop) */
+    min-height: 100vh; /* Faz o container ocupar a altura inteira da tela */
+    background-color: #f9f9f9;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     overflow-x: hidden;
-    position: relative; /* Garante o contexto para elementos posicionados */
+    position: relative; 
 }
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 /* --- CABEÇALHO --- */
 .cabecalho {
